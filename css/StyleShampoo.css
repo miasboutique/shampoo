@@ -1,0 +1,139 @@
+#principal{
+    margin: 0;
+    background-image: url(../img/logo\ yeguada\ 7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1220px;
+}
+.titulo{
+    background: rgba(71, 1, 13, 0.671);
+    color: rgb(212, 220, 248);
+    padding: 20px;
+    text-align: left;
+}
+#menu ul li{
+    display: block;
+    float: left;
+    border-right: 1px solid #cccccc;
+}
+#menu ul li a{
+    display: block;
+    padding: 10px;
+    color: rgba(175, 175, 233, 0.733);
+    text-decoration: none;
+}
+#menu ul li:hover{
+    background:rgba(66, 27, 27, 0.486);
+}
+#menu ul li:hover a{
+    color: white;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+h1{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+#lista{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px black;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#footer{
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    text-align: center;
+    background-color: black;
+    color: rgb(235, 234, 241);
+
+}
+#footer iframe{
+    width: 30%;
+    height: 10%;
+    margin-top: 7%;
+    margin-left: -90%;
+    border-radius: 5px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px gray;
+}
+#footer h1{
+    display: block;
+    background: url("../img/pxgray.png"), white;
+    width: 30%;
+    height: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    line-height: 55px;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.ubicacion h1{
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.ubicacion p{
+    margin-left: -51%;
+}
+.contacto h1{
+    float: left;
+    margin-left: 53%;
+    margin-top: -17%;
+}
+.autor h1{
+    float: left;
+    margin-left: 53%;
+    margin-top: -8%;
+}
+.autor p{
+    float: left;
+    margin-left: 55%;
+    margin-top: -3%;
+    font-size: 100%;
+}
+.container-redes{
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-redes img{
+    width: 60px;
+    padding: 4px;
+    background: rgba(0,0,0,0.0);
+    cursor: pointer;
+    border-radius: 100%;
+    transition: all 300ms;
+}
+.container-redes a:hover img{
+    background: rgba(233, 214, 214, 0.698);
+}
+.whatsapp{
+    position: absolute;
+    float: left;
+    margin-left: 61%;
+    margin-top: -21%;
+}
+.messenger{
+    position: absolute;
+    float: left;
+    margin-left: 69%;
+    margin-top: -21%;
+}
+.statcounter{
+    color: black;
+}
